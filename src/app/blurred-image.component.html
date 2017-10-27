@@ -1,0 +1,14 @@
+<img 
+	[src]="small.path" 
+	class="blurred-image--small" 
+	*ngIf="small.ready" 
+	[ngClass]="{'blurred-image--show': small.loaded}"
+/>
+<img 
+	#previewElem
+	[src]="preview.path" 
+	*ngIf="preview.ready" 
+	class="blurred-image--preview"
+	[ngClass]="{'blurred-image--show': preview.loaded}"
+	(load)="onLoaded($event)"
+/>

@@ -1,0 +1,29 @@
+:host(){
+	position: relative;
+	overflow: hidden;
+	background-color: #f2f2f2;
+}
+:host() img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 400ms;
+}
+
+.blurred-image--preview,
+.blurred-image--small {
+	opacity: 0;
+}
+.blurred-image--show {
+	opacity: 1;
+}
+
+:host() .blurred-image--small {
+	filter: blur(20px);
+    top: -5%;
+    height: 110%;
+    left: -5%;
+    width: 110%; 
+}
