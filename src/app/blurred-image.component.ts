@@ -26,6 +26,7 @@ export class BlurredImageComponent {
         }
     }
 
+    @Input() delay: number = 1000;
     @Input() size: any = {};
 
     @ViewChild('previewElem') previewElem: ElementRef;
@@ -62,11 +63,11 @@ export class BlurredImageComponent {
     onLoaded(event: any){
         setTimeout(() => {
             this.small.loaded = true;
-        }, 500);
+        }, this.delay/2);
 
         setTimeout(() => {
             this.preview.loaded = true;
-        }, 1000);
+        }, this.delay);
     }
 
     getComputedHeight(){
