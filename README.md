@@ -33,3 +33,8 @@ Import module:
 
 ## Demo
 http://crystalui.org/components/blurred-image/example
+
+## Sponsors
+
+We use Browserstack 
+[![Browserstack](http://crystalui.org/assets/img/browserstack-logo-600x315.png | width=200)](http://browserstack.com/)
