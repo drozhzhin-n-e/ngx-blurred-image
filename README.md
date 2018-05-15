@@ -37,4 +37,5 @@ http://crystalui.org/components/blurred-image/example
 ## Sponsors
 
 We use Browserstack 
-[![Browserstack](http://crystalui.org/assets/img/browserstack-logo-600x315.png =200x105)](http://browserstack.com/)
+
+[![Browserstack](http://crystalui.org/assets/img/browserstack-logo.png)](http://browserstack.com/)
